@@ -179,7 +179,6 @@ class OhmsCalculator : AppCompatActivity() {
         var r1 = ""
         var r2 = ""
         var r3 = ""
-
         var i1 = ""
         var i2 = ""
         var i3 = ""

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/openingScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ohmsImageId"
+        android:layout_width="112dp"
+        android:layout_height="97dp"
+        android:background="#FFFFFF"
+        android:onClick="ohmsCalcLink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348"
+        app:srcCompat="@drawable/ohms_pic" />
+
+    <TextView
+        android:id="@+id/ohmsCalcTitle"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="@string/ohm_s_law_calculator_main"
+        android:textColor="@color/blackColor"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447" />
+
+    <TextView
+        android:id="@+id/phoneId"
+        android:layout_width="119dp"
+        android:layout_height="35dp"
+        android:gravity="center_horizontal"
+        android:onClick="openPhone"
+        android:text="@string/phone_number"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <ImageView
+        android:id="@+id/phoneImage"
+        android:layout_width="35dp"
+        android:layout_height="44dp"
+        android:onClick="openPhone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/phone_image" />
+
+    <TextView
+        android:id="@+id/webId"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:onClick="openWebsite"
+        android:text="@string/visit_our_website"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        android:onClick="openWebsite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/web_image" />
+
+    <ImageView
+        android:id="@+id/ptImageId"
+        android:layout_width="97dp"
+        android:layout_height="91dp"
+        android:onClick="pt100CalcLink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354"
+        app:srcCompat="@drawable/pt_image" />
+
+    <TextView
+        android:id="@+id/ptCalcTitle"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:text="@string/pt_calculator"
+        android:textColor="@color/blackColor"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447" />
+
+    <ImageView
+        android:id="@+id/awgImageId"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:onClick="awgCalcLink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62"
+        app:srcCompat="@drawable/awg_icon_image" />
+
+
+    <TextView
+        android:id="@+id/awgCalcTitle"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:text="@string/awg_calculator"
+        android:textColor="@color/blackColor"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <ImageView
+        android:id="@+id/thermocoupleImageId"
+        android:layout_width="78dp"
+        android:layout_height="82dp"
+        android:onClick="thermocoupleCodesTableLink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627"
+        app:srcCompat="@drawable/thermocouple_icon_image" />
+
+    <TextView
+        android:id="@+id/thermocoupleTableCalcTitle"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:text="@string/thermocouple_codes_table_title"
+        android:textColor="@color/blackColor"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

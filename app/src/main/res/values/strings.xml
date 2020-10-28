@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">ElconProject</string>
+    <string name="elcon">Elcon</string>
+    <string name="resistance_ohm">Resistance (ohm)</string>
+    <string name="temperature_deg">Temperature (deg)</string>
+    <string name="enter_temperature">Enter Temperature</string>
+    <string name="pt_calculator_temperature_to_resistance">PT Calculator Temperature to Resistance</string>
+    <string name="calculateOhm">Calculate</string>
+    <string name="resetOhm">Reset</string>
+    <string name="calculatePT">Calculate</string>
+    <string name="resetPT">Reset</string>
+    <string name="pt100">PT100</string>
+    <string name="pt500">PT500</string>
+    <string name="pt1000">PT1000</string>
+    <string name="current_i">Current (I)</string>
+    <string name="voltage_v">Voltage (V)</string>
+    <string name="resistance_r">Resistance (R)</string>
+    <string name="power_p">Power (P)</string>
+    <string name="enter_voltage">Enter Voltage</string>
+    <string name="enter_resistance_pt">Enter Resistance</string>
+    <string name="enter_power">Enter Power</string>
+    <string name="enter_current">Enter Current</string>
+    <string name="ohm_s_law_calculator">Ohm’s Law Calculator</string>
+    <string name="ohm_s_law_calculator_main">Ohm\'s Law Calculator</string>
+    <string name="phone_number">08-9433630</string>
+    <string name="visit_our_website">visit our website!</string>
+    <string name="pt_calculator">PT Calculator</string>
+    <string name="enter_resistance_ohm">Enter Resistance</string>
+    <string name="awg_to_mm_conversion_calculator">AWG Conversion Calculator</string>
+    <string name="awg">AWG</string>
+    <string name="diameter_in_mm">Diameter (mm)</string>
+    <string name="area_in_mm_2">Area ("mm<sup>2</sup>")</string>
+    <string name="awg_calculator">AWG Calculator</string>
+    <string name="thermocouple_codes_table">Thermocouple Codes Table</string>
+    <string name="thermocouple_codes_table_title">Thermocouple codes table</string>
+
+    <string-array name="awp_options">
+        <item>--Select AWG--</item>
+        <item>0000</item>
+        <item>000</item>
+        <item>00</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>40</item>
+    </string-array>
+</resources>

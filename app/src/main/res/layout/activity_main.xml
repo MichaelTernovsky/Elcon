@@ -217,7 +217,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.869"
-        app:srcCompat="@drawable/elcon_commercial" />
+        app:srcCompat="@drawable/elcon_comercial" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

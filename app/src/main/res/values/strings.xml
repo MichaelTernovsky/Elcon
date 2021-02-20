@@ -33,6 +33,8 @@
     <string name="awg_calculator">AWG Calculator</string>
     <string name="thermocouple_codes_table">Thermocouple Codes Table</string>
     <string name="thermocouple_codes_table_title">Thermocouple codes table</string>
+    <string name="copyright">All rights reserved, Elcon Mamab ©</string>
+    <string name="warning">All calculations are the sole responsibility of the user</string>
 
     <string-array name="awp_options">
         <item>--Select AWG--</item>

@@ -160,6 +160,37 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.018" />
 
+    <TextView
+        android:id="@+id/copyrightId"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:onClick="openWebsite"
+        android:text="@string/copyright"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <TextView
+        android:id="@+id/warningId"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:onClick="openWebsite"
+        android:text="@string/warning"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="42dp"
@@ -176,13 +207,12 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="408dp"
-        android:layout_height="178dp"
+        android:layout_height="131dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.971"
+        app:layout_constraintVertical_bias="0.869"
         app:srcCompat="@drawable/elcon_comercial" />
 
 

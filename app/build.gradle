@@ -6,8 +6,10 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.0"
 
+    archivesBaseName = "Elcon"
+
     defaultConfig {
-        applicationId "com.example.elconproject"
+        applicationId "elcon.app.elconproject"
         minSdkVersion 15
         targetSdkVersion 30
         versionCode 1

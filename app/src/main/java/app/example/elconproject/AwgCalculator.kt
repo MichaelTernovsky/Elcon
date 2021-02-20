@@ -1,4 +1,4 @@
-package com.example.elconproject
+package app.example.elconproject
 
 import android.graphics.Color
 import android.os.Bundle
@@ -9,6 +9,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.elconproject.R
 import kotlinx.android.synthetic.main.activity_awg_calculator.*
 import java.math.RoundingMode
 import java.text.DecimalFormat
@@ -32,9 +33,7 @@ class AwgCalculator : AppCompatActivity() {
 
         //set title and buttons colors
         titleAwgId.setTextColor(Color.parseColor("#000066"))
-        calcAwgId.setBackgroundColor(Color.parseColor("#000066"))
         calcAwgId.setTextColor(Color.parseColor("#FFFFFF"))
-        resetAwgId.setBackgroundColor(Color.parseColor("#D5040E"))
         resetAwgId.setTextColor(Color.parseColor("#FFFFFF"))
 
         // set the spinner values

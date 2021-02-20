@@ -1,4 +1,4 @@
-package com.example.elconproject
+package app.example.elconproject
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.elconproject
+package app.example.elconproject
 
 import android.graphics.Color
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.elconproject.R
 import kotlinx.android.synthetic.main.activity_ohms_calculator.*
 import java.math.RoundingMode
 import java.text.DecimalFormat
@@ -27,9 +28,7 @@ class OhmsCalculator : AppCompatActivity() {
 
         //set title and buttons colors
         titleId.setTextColor(Color.parseColor("#000066"))
-        calcId.setBackgroundColor(Color.parseColor("#000066"))
         calcId.setTextColor(Color.parseColor("#FFFFFF"))
-        resetId.setBackgroundColor(Color.parseColor("#D5040E"))
         resetId.setTextColor(Color.parseColor("#FFFFFF"))
     }
 

@@ -11,19 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ThermocoupleCodesTable"
+            android:name="app.example.elconproject.ThermocoupleCodesTable"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AwgCalculator"
+            android:name="app.example.elconproject.AwgCalculator"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Pt100Calculator"
+            android:name="app.example.elconproject.Pt100Calculator"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".OhmsCalculator"
+            android:name="app.example.elconproject.OhmsCalculator"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="app.example.elconproject.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

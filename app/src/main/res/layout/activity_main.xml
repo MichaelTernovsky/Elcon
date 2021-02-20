@@ -5,7 +5,7 @@
     android:id="@+id/openingScreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="app.example.elconproject.MainActivity">
 
     <ImageView
         android:id="@+id/ohmsImageId"
@@ -15,11 +15,92 @@
         android:onClick="ohmsCalcLink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348"
+        app:layout_constraintVertical_bias="0.216"
         app:srcCompat="@drawable/ohms_pic" />
+
+    <TextView
+        android:id="@+id/ptCalcTitle"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:text="@string/pt_calculator"
+        android:textColor="@color/blackColor"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329" />
+
+    <TextView
+        android:id="@+id/thermocoupleTableCalcTitle"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:text="@string/thermocouple_codes_table_title"
+        android:textColor="@color/blackColor"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <ImageView
+        android:id="@+id/thermocoupleImageId"
+        android:layout_width="78dp"
+        android:layout_height="82dp"
+        android:onClick="thermocoupleCodesTableLink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497"
+        app:srcCompat="@drawable/thermocouple_icon_image" />
+
+    <ImageView
+        android:id="@+id/awgImageId"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:onClick="awgCalcLink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489"
+        app:srcCompat="@drawable/awg_icon_image" />
+
+    <ImageView
+        android:id="@+id/ptImageId"
+        android:layout_width="97dp"
+        android:layout_height="91dp"
+        android:onClick="pt100CalcLink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223"
+        app:srcCompat="@drawable/pt_image" />
+
+    <TextView
+        android:id="@+id/awgCalcTitle"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:text="@string/awg_calculator"
+        android:textColor="@color/blackColor"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" />
 
     <TextView
         android:id="@+id/ohmsCalcTitle"
@@ -30,10 +111,10 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintHorizontal_bias="0.911"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447" />
+        app:layout_constraintVertical_bias="0.329" />
 
     <TextView
         android:id="@+id/phoneId"
@@ -93,85 +174,16 @@
         app:srcCompat="@drawable/web_image" />
 
     <ImageView
-        android:id="@+id/ptImageId"
-        android:layout_width="97dp"
-        android:layout_height="91dp"
-        android:onClick="pt100CalcLink"
+        android:id="@+id/imageView"
+        android:layout_width="408dp"
+        android:layout_height="178dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.354"
-        app:srcCompat="@drawable/pt_image" />
+        app:layout_constraintVertical_bias="0.971"
+        app:srcCompat="@drawable/elcon_comercial" />
 
-    <TextView
-        android:id="@+id/ptCalcTitle"
-        android:layout_width="110dp"
-        android:layout_height="20dp"
-        android:text="@string/pt_calculator"
-        android:textColor="@color/blackColor"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447" />
-
-    <ImageView
-        android:id="@+id/awgImageId"
-        android:layout_width="93dp"
-        android:layout_height="93dp"
-        android:onClick="awgCalcLink"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62"
-        app:srcCompat="@drawable/awg_icon_image" />
-
-
-    <TextView
-        android:id="@+id/awgCalcTitle"
-        android:layout_width="110dp"
-        android:layout_height="20dp"
-        android:text="@string/awg_calculator"
-        android:textColor="@color/blackColor"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.687" />
-
-    <ImageView
-        android:id="@+id/thermocoupleImageId"
-        android:layout_width="78dp"
-        android:layout_height="82dp"
-        android:onClick="thermocoupleCodesTableLink"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.777"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627"
-        app:srcCompat="@drawable/thermocouple_icon_image" />
-
-    <TextView
-        android:id="@+id/thermocoupleTableCalcTitle"
-        android:layout_width="180dp"
-        android:layout_height="20dp"
-        android:text="@string/thermocouple_codes_table_title"
-        android:textColor="@color/blackColor"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.874"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.687" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

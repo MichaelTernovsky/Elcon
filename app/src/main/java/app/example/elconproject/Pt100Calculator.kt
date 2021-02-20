@@ -1,4 +1,4 @@
-package com.example.elconproject
+package app.example.elconproject
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +10,7 @@ import android.view.Gravity
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
+import com.example.elconproject.R
 import java.math.RoundingMode
 import java.text.DecimalFormat
 
@@ -32,9 +33,7 @@ class Pt100Calculator : AppCompatActivity() {
 
         //set title and buttons colors
         titlePTId.setTextColor(Color.parseColor("#000066"))
-        calcPTId.setBackgroundColor(Color.parseColor("#000066"))
         calcPTId.setTextColor(Color.parseColor("#FFFFFF"))
-        resetPTId.setBackgroundColor(Color.parseColor("#D5040E"))
         resetPTId.setTextColor(Color.parseColor("#FFFFFF"))
 
         // check which radio was chosen

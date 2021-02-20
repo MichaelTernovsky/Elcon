@@ -4,7 +4,7 @@
     <string name="resistance_ohm">Resistance (ohm)</string>
     <string name="temperature_deg">Temperature (deg)</string>
     <string name="enter_temperature">Enter Temperature</string>
-    <string name="pt_calculator_temperature_to_resistance">PT Calculator Temperature to Resistance</string>
+    <string name="pt_calculator_temperature_to_resistance">PT Calculator</string>
     <string name="calculateOhm">Calculate</string>
     <string name="resetOhm">Reset</string>
     <string name="calculatePT">Calculate</string>

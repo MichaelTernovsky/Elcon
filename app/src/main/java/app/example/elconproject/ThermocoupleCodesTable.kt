@@ -1,9 +1,11 @@
-package com.example.elconproject
+package app.example.elconproject
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import com.example.elconproject.R
+import kotlinx.android.synthetic.main.activity_awg_calculator.*
 import kotlinx.android.synthetic.main.activity_thermocouple_codes_table.*
 
 class ThermocoupleCodesTable : AppCompatActivity() {
@@ -13,6 +15,9 @@ class ThermocoupleCodesTable : AppCompatActivity() {
 
         // change background color
         thermocoupleCodesTbl.setBackgroundColor(Color.rgb(255, 255, 255))
+
+        // change title color
+        titleThermoCodesId.setTextColor(Color.parseColor("#000066"))
 
         // get the action bar element
         val actionBar = supportActionBar

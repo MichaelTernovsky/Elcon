@@ -5,7 +5,7 @@
     android:id="@+id/pt100Calc"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pt100Calculator">
+    tools:context="app.example.elconproject.Pt100Calculator">
 
     <TextView
         android:id="@+id/resPTId"
@@ -78,12 +78,14 @@
         android:textSize="27sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
+        app:layout_constraintVertical_bias="0.048" />
 
     <Button
         android:id="@+id/calcPTId"
+        android:background="@drawable/custom_rounded_corners_blue"
         android:layout_width="138dp"
         android:layout_height="36dp"
         android:gravity="center_horizontal"
@@ -98,6 +100,7 @@
 
     <Button
         android:id="@+id/resetPTId"
+        android:background="@drawable/custom_rounded_corners_red"
         android:layout_width="138dp"
         android:layout_height="36dp"
         android:layout_marginEnd="16dp"

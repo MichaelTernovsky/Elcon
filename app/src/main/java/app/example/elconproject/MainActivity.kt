@@ -1,4 +1,4 @@
-package com.example.elconproject
+package app.example.elconproject
 
 import android.content.Intent
 import android.graphics.Color
@@ -6,6 +6,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.elconproject.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

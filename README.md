@@ -3,11 +3,11 @@ An android application for a customers of Elcon company.
 
 The application assists us to calculate using hom's law, PT and AWG calculator.
 
-Downloading
+# Downloading
 You can download the app from Google Play, enjoy!
 
-IDE
+# IDE
 Android Studio - Ide by JetBrains
 
-Author
+# Author
 Michael Ternovsky

@@ -1,5 +1,5 @@
 # Elcon
-An android application for a customers of Elcon company.
+An android application for a customers of Elcon company, written in Kotlin.
 
 The application assists us to calculate using hom's law, PT and AWG calculator.
 

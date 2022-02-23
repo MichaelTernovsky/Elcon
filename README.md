@@ -7,7 +7,7 @@ The application assists us to calculate using hom's law, PT and AWG calculator.
 You can download the app from Google Play, enjoy!
 
 # IDE
-Android Studio - Ide by JetBrains
+Android Studio - Ide by JetBrains.
 
 # Author
 Michael Ternovsky
